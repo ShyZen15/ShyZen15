@@ -40,7 +40,7 @@ LOGO = r"""
     / /  \  \   \__/  \
    /_/    \__\  ~   ~  \
   ~~~~~~~~~~~~~~~~~~~~~~~~
-    dehradun // 30.3N
+  waterloo <-> dehradun
 """.strip("\n").split("\n")
 
 INFO = [
@@ -63,12 +63,6 @@ def header():
     o = []
     o.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Shiven Sharma (ShyZen15): a fastfetch-style terminal introduction">')
     o.append(f"""<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0b12"/><stop offset="1" stop-color="#141629"/></linearGradient>
-  <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="{CYAN}"/><stop offset=".5" stop-color="{VIOLET}"/><stop offset="1" stop-color="{PINK}"/>
-    <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="8s" repeatCount="indefinite"/>
-  </linearGradient>
-  <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="{VIOLET}" stop-opacity=".22"/><stop offset="1" stop-color="{VIOLET}" stop-opacity="0"/></radialGradient>
 </defs>
 <style>
   .m{{font-family:{MONO};font-size:13px;}}
@@ -85,7 +79,7 @@ def header():
   @keyframes draw{{to{{stroke-dashoffset:0}}}}
   @media (prefers-reduced-motion: reduce){{.in,.enso,.ch{{animation:none;opacity:1;fill-opacity:1;stroke-dashoffset:0}}.tw,.cur{{animation:none}}}}
 </style>""")
-    o.append(f'<rect width="{W}" height="{H}" rx="18" fill="url(#bg)"/>')
+    o.append(f'<rect width="{W}" height="{H}" rx="18" fill="{BG}"/>')
 
     # stars
     import random
@@ -110,7 +104,7 @@ def header():
 
     # terminal window
     tx, ty, tw_, th = 24, 52, 640, 408
-    o.append(f'<rect x="{tx}" y="{ty}" width="{tw_}" height="{th}" rx="14" fill="{PANEL}" fill-opacity=".94" stroke="url(#border)" stroke-width="2"/>')
+    o.append(f'<rect x="{tx}" y="{ty}" width="{tw_}" height="{th}" rx="14" fill="{PANEL}" stroke="#2e3446" stroke-width="1.5"/>')
     o.append(f'<g class="m">')
     py = ty + 34
     prompt = f'<tspan fill="{CYAN}" font-weight="700">shiven</tspan><tspan fill="{MUTED}"> in </tspan><tspan fill="{VIOLET}" font-weight="700">~/dev</tspan><tspan fill="{GREEN}"> ❯ </tspan>'
@@ -147,7 +141,6 @@ def header():
 
     # right panel: enso + name
     cx, cyy, r = 832, 226, 96
-    o.append(f'<circle cx="{cx}" cy="{cyy}" r="160" fill="url(#glow)"/>')
     import math
     a0, a1 = math.radians(-115), math.radians(215)
     p = lambda a, rr: (cx + rr * math.cos(a), cyy + rr * math.sin(a))
@@ -258,9 +251,7 @@ def card(p):
     W, H = 480, 236
     c = p["accent"]
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{escape(p["title"])}: {escape(p["desc"])}">']
-    o.append(f'<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c}" stop-opacity=".16"/><stop offset=".55" stop-color="{c}" stop-opacity="0"/></linearGradient></defs>')
     o.append(f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="16" fill="{PANEL}" stroke="{LINE}" stroke-width="1.5"/>')
-    o.append(f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="16" fill="url(#g)"/>')
     o.append(f'<rect x="1" y="22" width="3" height="44" rx="1.5" fill="{c}"/>')
     o.append(f'<text x="22" y="34" font-family="{MONO}" font-size="12" fill="{MUTED}">{t(p["path"])}</text>')
     o.append(f'<text x="22" y="66" font-family="{SANS}" font-size="25" font-weight="800" fill="{TEXT}">{t(p["title"])}</text>')

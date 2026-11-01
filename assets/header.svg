@@ -1,11 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" role="img" aria-label="Shiven Sharma (ShyZen15): a fastfetch-style terminal introduction">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0b12"/><stop offset="1" stop-color="#141629"/></linearGradient>
-  <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#7dd3fc"/><stop offset=".5" stop-color="#c084fc"/><stop offset="1" stop-color="#f472b6"/>
-    <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="8s" repeatCount="indefinite"/>
-  </linearGradient>
-  <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#c084fc" stop-opacity=".22"/><stop offset="1" stop-color="#c084fc" stop-opacity="0"/></radialGradient>
 </defs>
 <style>
   .m{font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace;font-size:13px;}
@@ -22,7 +16,7 @@
   @keyframes draw{to{stroke-dashoffset:0}}
   @media (prefers-reduced-motion: reduce){.in,.enso,.ch{animation:none;opacity:1;fill-opacity:1;stroke-dashoffset:0}.tw,.cur{animation:none}}
 </style>
-<rect width="1000" height="480" rx="18" fill="url(#bg)"/>
+<rect width="1000" height="480" rx="18" fill="#0b0d14"/>
 <circle class="tw" cx="955.9" cy="49.0" r="0.7" fill="#fff" style="animation-delay:0.47s"/>
 <circle class="tw" cx="976.6" cy="51.2" r="0.9" fill="#fff" style="animation-delay:2.57s"/>
 <circle class="tw" cx="989.8" cy="146.1" r="1.1" fill="#fff" style="animation-delay:1.40s"/>
@@ -80,7 +74,7 @@
 <text x="500.0" y="27" text-anchor="middle" xml:space="preserve" fill="#e2e8f0">03:14 AM  <tspan fill="#6b7280">-</tspan>  <tspan fill="#7dd3fc">night shift</tspan></text>
 <text x="970" y="27" text-anchor="end" xml:space="preserve" fill="#6b7280">cpu <tspan fill="#86efac">12%</tspan>   lofi <tspan fill="#f472b6">on</tspan>   caffeine <tspan fill="#fbbf24">98%</tspan></text>
 </g>
-<rect x="24" y="52" width="640" height="408" rx="14" fill="#11131d" fill-opacity=".94" stroke="url(#border)" stroke-width="2"/>
+<rect x="24" y="52" width="640" height="408" rx="14" fill="#11131d" stroke="#2e3446" stroke-width="1.5"/>
 <g class="m">
 <text x="44" y="86" xml:space="preserve"><tspan fill="#7dd3fc" font-weight="700">shiven</tspan><tspan fill="#6b7280"> in </tspan><tspan fill="#c084fc" font-weight="700">~/dev</tspan><tspan fill="#86efac"> ❯ </tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.40s">f</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.49s">a</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.58s">s</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.67s">t</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.76s">f</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.85s">e</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.94s">t</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:1.03s">c</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:1.12s">h</tspan></text>
 <text class="in" x="42" y="116" fill="#fbbf24" xml:space="preserve" style="animation-delay:1.45s">              _</text>
@@ -93,7 +87,7 @@
 <text class="in" x="42" y="256" fill="#c084fc" xml:space="preserve" style="animation-delay:1.73s">    / /  \  \   \__/  \</text>
 <text class="in" x="42" y="276" fill="#7dd3fc" xml:space="preserve" style="animation-delay:1.77s">   /_/    \__\  ~   ~  \</text>
 <text class="in" x="42" y="296" fill="#7dd3fc" xml:space="preserve" style="animation-delay:1.81s">  ~~~~~~~~~~~~~~~~~~~~~~~~</text>
-<text class="in" x="42" y="316" fill="#7dd3fc" xml:space="preserve" style="animation-delay:1.85s">    dehradun // 30.3N</text>
+<text class="in" x="42" y="316" fill="#7dd3fc" xml:space="preserve" style="animation-delay:1.85s">  waterloo &lt;-&gt; dehradun</text>
 <text class="in" x="272" y="116" style="animation-delay:1.45s"><tspan fill="#7dd3fc" font-weight="700">shiven</tspan><tspan fill="#e2e8f0">@</tspan><tspan fill="#c084fc" font-weight="700">shyzen15</tspan></text>
 <text class="in" x="272" y="132" fill="#6b7280" style="animation-delay:1.45s">---------------</text>
 <text class="in" x="272" y="152" xml:space="preserve" style="animation-delay:1.57s"><tspan fill="#7dd3fc" font-weight="700">name    </tspan><tspan fill="#e2e8f0">Shiven Sharma</tspan></text>
@@ -117,7 +111,6 @@
 <rect class="in" x="440" y="377" width="20" height="12" rx="3" fill="#e2e8f0" style="animation-delay:2.59s"/>
 <text class="in" x="44" y="438" xml:space="preserve" style="animation-delay:2.89s"><tspan fill="#7dd3fc" font-weight="700">shiven</tspan><tspan fill="#6b7280"> in </tspan><tspan fill="#c084fc" font-weight="700">~/dev</tspan><tspan fill="#86efac"> ❯ </tspan><tspan class="cur" fill="#e2e8f0">█</tspan></text>
 </g>
-<circle cx="832" cy="226" r="160" fill="url(#glow)"/>
 <path class="enso" pathLength="100" d="M791.4 139.0 A96 96 0 1 1 753.4 170.9" fill="none" stroke="#e2e8f0" stroke-width="13" stroke-linecap="round" opacity=".92"/>
 <path class="enso" pathLength="100" d="M800.3 129.1 A102 102 0 1 1 736.6 190.0" fill="none" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round" opacity=".35" style="animation-delay:.45s"/>
 <text class="s in" x="832" y="232" text-anchor="middle" font-size="34" font-weight="800" fill="#e2e8f0" letter-spacing="1" style="animation-delay:1.6s">Shy<tspan fill="#c084fc">Zen</tspan></text>
