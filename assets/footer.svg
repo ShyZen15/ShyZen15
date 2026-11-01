@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-label="footer: a late-night terminal sign-off">
+<style>.in{opacity:0;animation:in .3s ease-out forwards}@keyframes in{to{opacity:1}}.cur{animation:b 1s steps(1) infinite}@keyframes b{50%{fill-opacity:0}}@media (prefers-reduced-motion: reduce){.in{animation:none;opacity:1}.cur{animation:none}}</style>
+<rect x="1" y="1" width="998" height="148" rx="14" fill="#11131d" stroke="#232838" stroke-width="1.5"/>
+<g font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="13">
+<text class="in" x="24" y="34" xml:space="preserve" style="animation-delay:0.2s"><tspan fill="#7dd3fc" font-weight="700">shiven</tspan><tspan fill="#6b7280"> in </tspan><tspan fill="#c084fc" font-weight="700">~</tspan><tspan fill="#86efac"> ❯ </tspan><tspan fill="#e2e8f0">sleep 8h</tspan></text>
+<text class="in" x="24" y="58" xml:space="preserve" style="animation-delay:0.9s"><tspan fill="#fbbf24">fish:</tspan><tspan fill="#e2e8f0"> sleep postponed until the build passes. try again at 4am.</tspan></text>
+<text class="in" x="24" y="82" xml:space="preserve" style="animation-delay:1.6s"><tspan fill="#7dd3fc" font-weight="700">shiven</tspan><tspan fill="#6b7280"> in </tspan><tspan fill="#c084fc" font-weight="700">~</tspan><tspan fill="#86efac"> ❯ </tspan><tspan fill="#e2e8f0">git commit -m </tspan><tspan fill="#86efac">"it works. do not touch it."</tspan></text>
+<text class="in" x="24" y="106" xml:space="preserve" style="animation-delay:2.3s"><tspan fill="#6b7280">[main 15c0ffe] thanks for stopping by. star something, say hi.</tspan></text>
+<text class="in" x="24" y="130" xml:space="preserve" style="animation-delay:2.9s"><tspan fill="#7dd3fc" font-weight="700">shiven</tspan><tspan fill="#6b7280"> in </tspan><tspan fill="#c084fc" font-weight="700">~</tspan><tspan fill="#86efac"> ❯ </tspan><tspan class="cur" fill="#e2e8f0">█</tspan></text>
+</g></svg>

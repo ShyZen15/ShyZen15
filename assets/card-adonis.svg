@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="236" viewBox="0 0 480 236" role="img" aria-label="Adonis Transfer: Encrypted file transfer with a Tkinter GUI, raw socket streaming and PostgreSQL-backed accounts. The project that started my sockets obsession.">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c084fc" stop-opacity=".16"/><stop offset=".55" stop-color="#c084fc" stop-opacity="0"/></linearGradient></defs>
+<rect x="1" y="1" width="478" height="234" rx="16" fill="#11131d" stroke="#232838" stroke-width="1.5"/>
+<rect x="1" y="1" width="478" height="234" rx="16" fill="url(#g)"/>
+<rect x="1" y="22" width="3" height="44" rx="1.5" fill="#c084fc"/>
+<text x="22" y="34" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" fill="#6b7280">~/py/adonis-transfer</text>
+<text x="22" y="66" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="25" font-weight="800" fill="#e2e8f0">Adonis Transfer</text>
+<rect x="22" y="78" width="163" height="20" rx="10" fill="#c084fc" fill-opacity=".14" stroke="#c084fc" stroke-opacity=".5"/>
+<text x="103" y="92" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11" font-weight="700" fill="#c084fc" letter-spacing=".5">PYTHON  /  NETWORKING</text>
+<path d="M390 54 H438 m-8 -7 l8 7 l-8 7" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M442 74 H394 m8 -7 l-8 7 l8 7" fill="none" stroke="#c084fc" stroke-opacity=".5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect width="6" height="6" rx="1" fill="#c084fc" y="51"><animate attributeName="x" values="390;432" dur="1.4s" repeatCount="indefinite"/></rect>
+<text x="22" y="124" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Encrypted file transfer with a Tkinter GUI, raw socket streaming</text>
+<text x="22" y="143" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#cbd5e1">and PostgreSQL-backed accounts. The project that started my</text>
+<text x="22" y="162" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#cbd5e1">sockets obsession.</text>
+<rect x="22" y="200" width="62" height="22" rx="6" fill="#1a1e2b" stroke="#232838"/>
+<text x="53" y="215" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" fill="#e2e8f0">Python</text>
+<rect x="92" y="200" width="70" height="22" rx="6" fill="#1a1e2b" stroke="#232838"/>
+<text x="127" y="215" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" fill="#e2e8f0">sockets</text>
+<rect x="170" y="200" width="107" height="22" rx="6" fill="#1a1e2b" stroke="#232838"/>
+<text x="224" y="215" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" fill="#e2e8f0">PyCryptodome</text>
+<rect x="285" y="200" width="92" height="22" rx="6" fill="#1a1e2b" stroke="#232838"/>
+<text x="331" y="215" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" fill="#e2e8f0">PostgreSQL</text>
+</svg>

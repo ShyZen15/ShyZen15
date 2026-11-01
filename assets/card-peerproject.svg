@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="236" viewBox="0 0 480 236" role="img" aria-label="The Peer Project: Free, student-run mentorship with r/CBSE, r/ICSE and r/JEE that pairs high schoolers with grads who walked the same path. I built the backend: auth, mentor matching, APIs.">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7dd3fc" stop-opacity=".16"/><stop offset=".55" stop-color="#7dd3fc" stop-opacity="0"/></linearGradient></defs>
+<rect x="1" y="1" width="478" height="234" rx="16" fill="#11131d" stroke="#232838" stroke-width="1.5"/>
+<rect x="1" y="1" width="478" height="234" rx="16" fill="url(#g)"/>
+<rect x="1" y="22" width="3" height="44" rx="1.5" fill="#7dd3fc"/>
+<text x="22" y="34" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" fill="#6b7280">~/nonprofit/peer-project</text>
+<text x="22" y="66" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="25" font-weight="800" fill="#e2e8f0">The Peer Project</text>
+<rect x="22" y="78" width="115" height="20" rx="10" fill="#7dd3fc" fill-opacity=".14" stroke="#7dd3fc" stroke-opacity=".5"/>
+<text x="79" y="92" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11" font-weight="700" fill="#7dd3fc" letter-spacing=".5">PEERPROJECT.IN</text>
+<line x1="394" y1="72" x2="438" y2="52" stroke="#7dd3fc" stroke-opacity=".5" stroke-width="2" stroke-dasharray="3 4"/><circle cx="394" cy="72" r="9" fill="#7dd3fc" fill-opacity=".18" stroke="#7dd3fc" stroke-width="2"/><circle cx="438" cy="52" r="9" fill="#7dd3fc" fill-opacity=".18" stroke="#7dd3fc" stroke-width="2"/><circle r="3" fill="#7dd3fc"><animateMotion dur="2s" repeatCount="indefinite" path="M394 72 L438 52 L394 72"/></circle>
+<text x="22" y="124" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Free, student-run mentorship with r/CBSE, r/ICSE and r/JEE that</text>
+<text x="22" y="143" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#cbd5e1">pairs high schoolers with grads who walked the same path. I</text>
+<text x="22" y="162" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#cbd5e1">built the backend: auth, mentor matching, APIs.</text>
+<rect x="22" y="200" width="70" height="22" rx="6" fill="#1a1e2b" stroke="#232838"/>
+<text x="57" y="215" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" fill="#e2e8f0">FastAPI</text>
+<rect x="100" y="200" width="77" height="22" rx="6" fill="#1a1e2b" stroke="#232838"/>
+<text x="138" y="215" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" fill="#e2e8f0">Supabase</text>
+<rect x="185" y="200" width="77" height="22" rx="6" fill="#1a1e2b" stroke="#232838"/>
+<text x="224" y="215" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" fill="#e2e8f0">pgvector</text>
+<rect x="270" y="200" width="40" height="22" rx="6" fill="#1a1e2b" stroke="#232838"/>
+<text x="290" y="215" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" fill="#e2e8f0">JWT</text>
+<rect x="318" y="200" width="48" height="22" rx="6" fill="#1a1e2b" stroke="#232838"/>
+<text x="342" y="215" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" fill="#e2e8f0">LLMs</text>
+</svg>

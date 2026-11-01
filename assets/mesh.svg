@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="64" viewBox="0 0 1000 64" role="img" aria-label="divider: a radio mesh passing packets">
+<style>.p{animation:p 2.4s ease-in-out infinite}@keyframes p{0%,100%{opacity:.35}50%{opacity:1}}@media (prefers-reduced-motion: reduce){.p{animation:none}}</style>
+<line x1="30.0" y1="16.6" x2="108.3" y2="43.2" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="108.3" y1="43.2" x2="186.7" y2="19.2" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="186.7" y1="19.2" x2="265.0" y2="42.6" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="265.0" y1="42.6" x2="343.3" y2="18.3" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="343.3" y1="18.3" x2="421.7" y2="44.9" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="421.7" y1="44.9" x2="500.0" y2="14.5" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="500.0" y1="14.5" x2="578.3" y2="46.1" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="578.3" y1="46.1" x2="656.7" y2="14.3" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="656.7" y1="14.3" x2="735.0" y2="45.5" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="735.0" y1="45.5" x2="813.3" y2="14.6" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="813.3" y1="14.6" x2="891.7" y2="42.7" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="891.7" y1="42.7" x2="970.0" y2="17.4" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="30.0" y1="16.6" x2="186.7" y2="19.2" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="265.0" y1="42.6" x2="421.7" y2="44.9" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="500.0" y1="14.5" x2="656.7" y2="14.3" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<line x1="735.0" y1="45.5" x2="891.7" y2="42.7" stroke="#8b949e" stroke-opacity=".35" stroke-width="1.2"/>
+<circle class="p" cx="30.0" cy="16.6" r="4" fill="#7dd3fc" style="animation-delay:0.00s"/>
+<circle cx="30.0" cy="16.6" r="8" fill="none" stroke="#7dd3fc" stroke-opacity=".25"/>
+<circle class="p" cx="108.3" cy="43.2" r="4" fill="#c084fc" style="animation-delay:0.18s"/>
+<circle cx="108.3" cy="43.2" r="8" fill="none" stroke="#c084fc" stroke-opacity=".25"/>
+<circle class="p" cx="186.7" cy="19.2" r="4" fill="#f472b6" style="animation-delay:0.36s"/>
+<circle cx="186.7" cy="19.2" r="8" fill="none" stroke="#f472b6" stroke-opacity=".25"/>
+<circle class="p" cx="265.0" cy="42.6" r="4" fill="#fbbf24" style="animation-delay:0.54s"/>
+<circle cx="265.0" cy="42.6" r="8" fill="none" stroke="#fbbf24" stroke-opacity=".25"/>
+<circle class="p" cx="343.3" cy="18.3" r="4" fill="#7dd3fc" style="animation-delay:0.72s"/>
+<circle cx="343.3" cy="18.3" r="8" fill="none" stroke="#7dd3fc" stroke-opacity=".25"/>
+<circle class="p" cx="421.7" cy="44.9" r="4" fill="#c084fc" style="animation-delay:0.90s"/>
+<circle cx="421.7" cy="44.9" r="8" fill="none" stroke="#c084fc" stroke-opacity=".25"/>
+<circle class="p" cx="500.0" cy="14.5" r="4" fill="#f472b6" style="animation-delay:1.08s"/>
+<circle cx="500.0" cy="14.5" r="8" fill="none" stroke="#f472b6" stroke-opacity=".25"/>
+<circle class="p" cx="578.3" cy="46.1" r="4" fill="#fbbf24" style="animation-delay:1.26s"/>
+<circle cx="578.3" cy="46.1" r="8" fill="none" stroke="#fbbf24" stroke-opacity=".25"/>
+<circle class="p" cx="656.7" cy="14.3" r="4" fill="#7dd3fc" style="animation-delay:1.44s"/>
+<circle cx="656.7" cy="14.3" r="8" fill="none" stroke="#7dd3fc" stroke-opacity=".25"/>
+<circle class="p" cx="735.0" cy="45.5" r="4" fill="#c084fc" style="animation-delay:1.62s"/>
+<circle cx="735.0" cy="45.5" r="8" fill="none" stroke="#c084fc" stroke-opacity=".25"/>
+<circle class="p" cx="813.3" cy="14.6" r="4" fill="#f472b6" style="animation-delay:1.80s"/>
+<circle cx="813.3" cy="14.6" r="8" fill="none" stroke="#f472b6" stroke-opacity=".25"/>
+<circle class="p" cx="891.7" cy="42.7" r="4" fill="#fbbf24" style="animation-delay:1.98s"/>
+<circle cx="891.7" cy="42.7" r="8" fill="none" stroke="#fbbf24" stroke-opacity=".25"/>
+<circle class="p" cx="970.0" cy="17.4" r="4" fill="#7dd3fc" style="animation-delay:2.16s"/>
+<circle cx="970.0" cy="17.4" r="8" fill="none" stroke="#7dd3fc" stroke-opacity=".25"/>
+<circle r="3" fill="#7dd3fc"><animateMotion dur="6s" begin="0s" repeatCount="indefinite" path="M30.0 16.6 L108.3 43.2 L186.7 19.2 L265.0 42.6 L343.3 18.3 L421.7 44.9 L500.0 14.5 L578.3 46.1 L656.7 14.3 L735.0 45.5 L813.3 14.6 L891.7 42.7 L970.0 17.4"/></circle>
+<circle r="3" fill="#f472b6"><animateMotion dur="6s" begin="-3s" repeatCount="indefinite" path="M30.0 16.6 L108.3 43.2 L186.7 19.2 L265.0 42.6 L343.3 18.3 L421.7 44.9 L500.0 14.5 L578.3 46.1 L656.7 14.3 L735.0 45.5 L813.3 14.6 L891.7 42.7 L970.0 17.4"/></circle>
+</svg>

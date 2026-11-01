@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" role="img" aria-label="Shiven Sharma (ShyZen15): a fastfetch-style terminal introduction">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0b12"/><stop offset="1" stop-color="#141629"/></linearGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7dd3fc"/><stop offset=".5" stop-color="#c084fc"/><stop offset="1" stop-color="#f472b6"/>
+    <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#c084fc" stop-opacity=".22"/><stop offset="1" stop-color="#c084fc" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+  .m{font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',Menlo,monospace;font-size:13px;}
+  .s{font-family:'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;}
+  .in{opacity:0;animation:in .35s ease-out forwards;}
+  @keyframes in{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+  .tw{animation:tw 3s ease-in-out infinite;}
+  @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+  .ch{fill-opacity:0;animation:ch .01s linear forwards;}
+  @keyframes ch{to{fill-opacity:1}}
+  .cur{animation:blink 1s steps(1) infinite;}
+  @keyframes blink{50%{fill-opacity:0}}
+  .enso{stroke-dasharray:100;stroke-dashoffset:100;animation:draw 2.2s cubic-bezier(.6,.1,.2,1) .3s forwards;}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @media (prefers-reduced-motion: reduce){.in,.enso,.ch{animation:none;opacity:1;fill-opacity:1;stroke-dashoffset:0}.tw,.cur{animation:none}}
+</style>
+<rect width="1000" height="480" rx="18" fill="url(#bg)"/>
+<circle class="tw" cx="955.9" cy="49.0" r="0.7" fill="#fff" style="animation-delay:0.47s"/>
+<circle class="tw" cx="976.6" cy="51.2" r="0.9" fill="#fff" style="animation-delay:2.57s"/>
+<circle class="tw" cx="989.8" cy="146.1" r="1.1" fill="#fff" style="animation-delay:1.40s"/>
+<circle class="tw" cx="358.6" cy="211.1" r="1.1" fill="#fff" style="animation-delay:0.69s"/>
+<circle class="tw" cx="850.7" cy="416.6" r="1.1" fill="#fff" style="animation-delay:0.67s"/>
+<circle class="tw" cx="916.3" cy="261.8" r="0.9" fill="#fff" style="animation-delay:1.73s"/>
+<circle class="tw" cx="833.9" cy="252.6" r="1.4" fill="#fff" style="animation-delay:1.69s"/>
+<circle class="tw" cx="362.8" cy="286.7" r="1.4" fill="#fff" style="animation-delay:1.22s"/>
+<circle class="tw" cx="856.3" cy="467.9" r="1.4" fill="#fff" style="animation-delay:2.88s"/>
+<circle class="tw" cx="832.0" cy="127.4" r="0.9" fill="#fff" style="animation-delay:1.84s"/>
+<circle class="tw" cx="779.3" cy="403.6" r="0.7" fill="#fff" style="animation-delay:0.86s"/>
+<circle class="tw" cx="495.1" cy="421.9" r="0.7" fill="#fff" style="animation-delay:2.68s"/>
+<circle class="tw" cx="397.5" cy="75.3" r="1.1" fill="#fff" style="animation-delay:1.20s"/>
+<circle class="tw" cx="502.0" cy="120.3" r="1.1" fill="#fff" style="animation-delay:0.23s"/>
+<circle class="tw" cx="313.9" cy="114.1" r="1.1" fill="#fff" style="animation-delay:1.16s"/>
+<circle class="tw" cx="477.0" cy="414.7" r="0.7" fill="#fff" style="animation-delay:2.27s"/>
+<circle class="tw" cx="830.9" cy="160.1" r="0.9" fill="#fff" style="animation-delay:0.35s"/>
+<circle class="tw" cx="492.6" cy="204.2" r="1.1" fill="#fff" style="animation-delay:2.78s"/>
+<circle class="tw" cx="736.3" cy="166.4" r="0.7" fill="#fff" style="animation-delay:1.35s"/>
+<circle class="tw" cx="68.2" cy="152.7" r="1.4" fill="#fff" style="animation-delay:1.70s"/>
+<circle class="tw" cx="865.0" cy="256.3" r="0.7" fill="#fff" style="animation-delay:1.42s"/>
+<circle class="tw" cx="90.1" cy="453.1" r="0.9" fill="#fff" style="animation-delay:2.33s"/>
+<circle class="tw" cx="591.5" cy="339.0" r="1.1" fill="#fff" style="animation-delay:2.03s"/>
+<circle class="tw" cx="608.6" cy="68.0" r="1.4" fill="#fff" style="animation-delay:1.30s"/>
+<circle class="tw" cx="64.8" cy="442.3" r="1.1" fill="#fff" style="animation-delay:1.79s"/>
+<circle class="tw" cx="315.5" cy="394.1" r="1.4" fill="#fff" style="animation-delay:2.68s"/>
+<circle class="tw" cx="884.7" cy="50.4" r="1.1" fill="#fff" style="animation-delay:1.85s"/>
+<circle class="tw" cx="900.6" cy="45.2" r="1.1" fill="#fff" style="animation-delay:0.75s"/>
+<circle class="tw" cx="976.5" cy="185.0" r="0.9" fill="#fff" style="animation-delay:2.05s"/>
+<circle class="tw" cx="318.5" cy="179.8" r="1.1" fill="#fff" style="animation-delay:2.11s"/>
+<circle class="tw" cx="343.2" cy="69.2" r="0.9" fill="#fff" style="animation-delay:1.92s"/>
+<circle class="tw" cx="505.4" cy="447.1" r="1.4" fill="#fff" style="animation-delay:1.00s"/>
+<circle class="tw" cx="886.1" cy="98.8" r="0.7" fill="#fff" style="animation-delay:0.95s"/>
+<circle class="tw" cx="459.2" cy="305.4" r="1.4" fill="#fff" style="animation-delay:1.72s"/>
+<circle class="tw" cx="129.1" cy="439.2" r="0.7" fill="#fff" style="animation-delay:0.30s"/>
+<circle class="tw" cx="840.0" cy="345.8" r="1.4" fill="#fff" style="animation-delay:2.52s"/>
+<circle class="tw" cx="652.6" cy="290.6" r="1.1" fill="#fff" style="animation-delay:1.11s"/>
+<circle class="tw" cx="238.9" cy="281.3" r="0.7" fill="#fff" style="animation-delay:2.99s"/>
+<circle class="tw" cx="719.0" cy="294.1" r="1.1" fill="#fff" style="animation-delay:1.38s"/>
+<circle class="tw" cx="602.4" cy="285.4" r="1.4" fill="#fff" style="animation-delay:0.09s"/>
+<circle class="tw" cx="340.3" cy="367.7" r="1.1" fill="#fff" style="animation-delay:3.00s"/>
+<circle class="tw" cx="69.2" cy="434.3" r="0.9" fill="#fff" style="animation-delay:0.30s"/>
+<circle class="tw" cx="643.2" cy="131.4" r="0.7" fill="#fff" style="animation-delay:2.38s"/>
+<circle class="tw" cx="717.1" cy="272.0" r="0.9" fill="#fff" style="animation-delay:0.97s"/>
+<circle class="tw" cx="611.5" cy="418.2" r="1.1" fill="#fff" style="animation-delay:1.25s"/>
+<circle class="tw" cx="421.5" cy="417.7" r="1.1" fill="#fff" style="animation-delay:2.25s"/>
+<g class="m" font-size="12">
+<rect x="16" y="10" width="968" height="26" rx="13" fill="#11131d" stroke="#232838"/>
+<text x="39" y="27" text-anchor="middle" fill="#6b7280" font-weight="400">1</text>
+<rect x="54" y="15" width="22" height="16" rx="8" fill="#c084fc"/>
+<text x="65" y="27" text-anchor="middle" fill="#0b0d14" font-weight="700">2</text>
+<text x="91" y="27" text-anchor="middle" fill="#6b7280" font-weight="400">3</text>
+<text x="117" y="27" text-anchor="middle" fill="#6b7280" font-weight="400">4</text>
+<text x="143" y="27" text-anchor="middle" fill="#6b7280" font-weight="400">5</text>
+<text x="500.0" y="27" text-anchor="middle" xml:space="preserve" fill="#e2e8f0">03:14 AM  <tspan fill="#6b7280">-</tspan>  <tspan fill="#7dd3fc">night shift</tspan></text>
+<text x="970" y="27" text-anchor="end" xml:space="preserve" fill="#6b7280">cpu <tspan fill="#86efac">12%</tspan>   lofi <tspan fill="#f472b6">on</tspan>   caffeine <tspan fill="#fbbf24">98%</tspan></text>
+</g>
+<rect x="24" y="52" width="640" height="408" rx="14" fill="#11131d" fill-opacity=".94" stroke="url(#border)" stroke-width="2"/>
+<g class="m">
+<text x="44" y="86" xml:space="preserve"><tspan fill="#7dd3fc" font-weight="700">shiven</tspan><tspan fill="#6b7280"> in </tspan><tspan fill="#c084fc" font-weight="700">~/dev</tspan><tspan fill="#86efac"> ❯ </tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.40s">f</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.49s">a</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.58s">s</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.67s">t</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.76s">f</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.85s">e</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:0.94s">t</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:1.03s">c</tspan><tspan class="ch" fill="#e2e8f0" style="animation-delay:1.12s">h</tspan></text>
+<text class="in" x="42" y="116" fill="#fbbf24" xml:space="preserve" style="animation-delay:1.45s">              _</text>
+<text class="in" x="42" y="136" fill="#fbbf24" xml:space="preserve" style="animation-delay:1.49s">      *     /  )    .</text>
+<text class="in" x="42" y="156" fill="#fbbf24" xml:space="preserve" style="animation-delay:1.53s">   .       |  (         *</text>
+<text class="in" x="42" y="176" fill="#fbbf24" xml:space="preserve" style="animation-delay:1.57s">            \__)</text>
+<text class="in" x="42" y="196" fill="#c084fc" xml:space="preserve" style="animation-delay:1.61s">       /\         .</text>
+<text class="in" x="42" y="216" fill="#c084fc" xml:space="preserve" style="animation-delay:1.65s">      /  \   /\</text>
+<text class="in" x="42" y="236" fill="#c084fc" xml:space="preserve" style="animation-delay:1.69s">     / /\ \_/  \    /\</text>
+<text class="in" x="42" y="256" fill="#c084fc" xml:space="preserve" style="animation-delay:1.73s">    / /  \  \   \__/  \</text>
+<text class="in" x="42" y="276" fill="#7dd3fc" xml:space="preserve" style="animation-delay:1.77s">   /_/    \__\  ~   ~  \</text>
+<text class="in" x="42" y="296" fill="#7dd3fc" xml:space="preserve" style="animation-delay:1.81s">  ~~~~~~~~~~~~~~~~~~~~~~~~</text>
+<text class="in" x="42" y="316" fill="#7dd3fc" xml:space="preserve" style="animation-delay:1.85s">    dehradun // 30.3N</text>
+<text class="in" x="272" y="116" style="animation-delay:1.45s"><tspan fill="#7dd3fc" font-weight="700">shiven</tspan><tspan fill="#e2e8f0">@</tspan><tspan fill="#c084fc" font-weight="700">shyzen15</tspan></text>
+<text class="in" x="272" y="132" fill="#6b7280" style="animation-delay:1.45s">---------------</text>
+<text class="in" x="272" y="152" xml:space="preserve" style="animation-delay:1.57s"><tspan fill="#7dd3fc" font-weight="700">name    </tspan><tspan fill="#e2e8f0">Shiven Sharma</tspan></text>
+<text class="in" x="272" y="173" xml:space="preserve" style="animation-delay:1.66s"><tspan fill="#7dd3fc" font-weight="700">home    </tspan><tspan fill="#e2e8f0">Dehradun, IN  (himalayan foothills)</tspan></text>
+<text class="in" x="272" y="194" xml:space="preserve" style="animation-delay:1.75s"><tspan fill="#7dd3fc" font-weight="700">role    </tspan><tspan fill="#e2e8f0">ai/ml  -  backend  -  hardware</tspan></text>
+<text class="in" x="272" y="215" xml:space="preserve" style="animation-delay:1.84s"><tspan fill="#7dd3fc" font-weight="700">os      </tspan><tspan fill="#e2e8f0">linux  /  hyprland</tspan></text>
+<text class="in" x="272" y="236" xml:space="preserve" style="animation-delay:1.93s"><tspan fill="#7dd3fc" font-weight="700">shell   </tspan><tspan fill="#e2e8f0">fish + starship</tspan></text>
+<text class="in" x="272" y="257" xml:space="preserve" style="animation-delay:2.02s"><tspan fill="#7dd3fc" font-weight="700">editor  </tspan><tspan fill="#e2e8f0">neovim (astronvim)</tspan></text>
+<text class="in" x="272" y="278" xml:space="preserve" style="animation-delay:2.11s"><tspan fill="#7dd3fc" font-weight="700">langs   </tspan><tspan fill="#e2e8f0">python  typescript  c++  lua  sql</tspan></text>
+<text class="in" x="272" y="299" xml:space="preserve" style="animation-delay:2.20s"><tspan fill="#7dd3fc" font-weight="700">stack   </tspan><tspan fill="#e2e8f0">fastapi  supabase  postgres  react</tspan></text>
+<text class="in" x="272" y="320" xml:space="preserve" style="animation-delay:2.29s"><tspan fill="#7dd3fc" font-weight="700">radio   </tspan><tspan fill="#e2e8f0">lora  meshtastic  esp32  arduino</tspan></text>
+<text class="in" x="272" y="341" xml:space="preserve" style="animation-delay:2.38s"><tspan fill="#7dd3fc" font-weight="700">uptime  </tspan><tspan fill="#e2e8f0">shipping code since 2020</tspan></text>
+<text class="in" x="272" y="362" xml:space="preserve" style="animation-delay:2.47s"><tspan fill="#7dd3fc" font-weight="700">now     </tspan><tspan fill="#e2e8f0">building quantum-larpers (shh)</tspan></text>
+<rect class="in" x="272" y="377" width="20" height="12" rx="3" fill="#1f2335" style="animation-delay:2.59s"/>
+<rect class="in" x="296" y="377" width="20" height="12" rx="3" fill="#f87171" style="animation-delay:2.59s"/>
+<rect class="in" x="320" y="377" width="20" height="12" rx="3" fill="#86efac" style="animation-delay:2.59s"/>
+<rect class="in" x="344" y="377" width="20" height="12" rx="3" fill="#fbbf24" style="animation-delay:2.59s"/>
+<rect class="in" x="368" y="377" width="20" height="12" rx="3" fill="#7dd3fc" style="animation-delay:2.59s"/>
+<rect class="in" x="392" y="377" width="20" height="12" rx="3" fill="#c084fc" style="animation-delay:2.59s"/>
+<rect class="in" x="416" y="377" width="20" height="12" rx="3" fill="#f472b6" style="animation-delay:2.59s"/>
+<rect class="in" x="440" y="377" width="20" height="12" rx="3" fill="#e2e8f0" style="animation-delay:2.59s"/>
+<text class="in" x="44" y="438" xml:space="preserve" style="animation-delay:2.89s"><tspan fill="#7dd3fc" font-weight="700">shiven</tspan><tspan fill="#6b7280"> in </tspan><tspan fill="#c084fc" font-weight="700">~/dev</tspan><tspan fill="#86efac"> ❯ </tspan><tspan class="cur" fill="#e2e8f0">█</tspan></text>
+</g>
+<circle cx="832" cy="196" r="160" fill="url(#glow)"/>
+<path class="enso" pathLength="100" d="M791.4 109.0 A96 96 0 1 1 753.4 140.9" fill="none" stroke="#e2e8f0" stroke-width="13" stroke-linecap="round" opacity=".92"/>
+<path class="enso" pathLength="100" d="M800.3 99.1 A102 102 0 1 1 736.6 160.0" fill="none" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round" opacity=".35" style="animation-delay:.45s"/>
+<text class="s in" x="832" y="202" text-anchor="middle" font-size="34" font-weight="800" fill="#e2e8f0" letter-spacing="1" style="animation-delay:1.6s">Shy<tspan fill="#c084fc">Zen</tspan></text>
+<text class="m in" x="832" y="226" text-anchor="middle" font-size="12" fill="#6b7280" letter-spacing="6" style="animation-delay:1.8s">SHIVEN</text>
+<text class="s in" x="832" y="346" text-anchor="middle" font-size="22" font-weight="700" fill="#e2e8f0" style="animation-delay:2.1s">quiet code.</text>
+<text class="s in" x="832" y="374" text-anchor="middle" font-size="22" font-weight="700" fill="#f472b6" style="animation-delay:2.4s">loud impact.</text>
+<text class="m in" x="832" y="418" text-anchor="middle" font-size="11" fill="#6b7280" style="animation-delay:2.7s">ML  /  BACKENDS  /  RADIOS  /  RICE</text>
+</svg>
