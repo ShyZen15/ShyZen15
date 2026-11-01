@@ -45,7 +45,7 @@ LOGO = r"""
 
 INFO = [
     ("name", "Shiven Sharma"),
-    ("home", "Dehradun, IN  (himalayan foothills)"),
+    ("home", "Waterloo, ON  /  Dehradun, IN"),
     ("role", "ai/ml  -  backend  -  hardware"),
     ("os", "linux  /  hyprland"),
     ("shell", "fish + starship"),

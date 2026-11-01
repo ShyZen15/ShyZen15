@@ -1,19 +1,13 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="shiven@shyzen15: a fastfetch-style intro. AI/ML, backends, radios and a well-riced Hyprland setup, from Dehradun." />
+<img src="assets/header.svg" width="100%" alt="shiven@shyzen15: a fastfetch-style intro. AI/ML, backends, radios and a well-riced Hyprland setup, from Waterloo and Dehradun." />
 
 </div>
 
 <br/>
 
 <p align="center">
-  <b>Hey, I'm Shiven</b>, a quiet builder from the Himalayan foothills.<br/>
-  I like software that keeps working when everything else stops:<br/>
-  <i>SOS messages hopping over radio when the towers are down, models that read hands, backends that pair strangers who can help each other.</i>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/based_in-Dehradun,_IN-c084fc?style=flat-square&labelColor=11131d" alt="based in Dehradun, India"/>
+  <img src="https://img.shields.io/badge/based_in-Waterloo%2C_ON_%C2%B7_Dehradun%2C_IN-c084fc?style=flat-square&labelColor=11131d" alt="based in Waterloo, Ontario or Dehradun, India"/>
   <img src="https://img.shields.io/badge/focus-AI%2FML_%C2%B7_backend_%C2%B7_hardware-7dd3fc?style=flat-square&labelColor=11131d" alt="focus: AI/ML, backend, hardware"/>
   <img src="https://img.shields.io/badge/runs_on-Hyprland_%2B_Neovim-f472b6?style=flat-square&labelColor=11131d" alt="runs on Hyprland and Neovim"/>
   <img src="https://img.shields.io/badge/peak_hours-02%3A00--05%3A00-fbbf24?style=flat-square&labelColor=11131d" alt="peak hours 2am to 5am"/>

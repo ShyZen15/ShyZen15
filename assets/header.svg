@@ -97,7 +97,7 @@
 <text class="in" x="272" y="116" style="animation-delay:1.45s"><tspan fill="#7dd3fc" font-weight="700">shiven</tspan><tspan fill="#e2e8f0">@</tspan><tspan fill="#c084fc" font-weight="700">shyzen15</tspan></text>
 <text class="in" x="272" y="132" fill="#6b7280" style="animation-delay:1.45s">---------------</text>
 <text class="in" x="272" y="152" xml:space="preserve" style="animation-delay:1.57s"><tspan fill="#7dd3fc" font-weight="700">name    </tspan><tspan fill="#e2e8f0">Shiven Sharma</tspan></text>
-<text class="in" x="272" y="173" xml:space="preserve" style="animation-delay:1.66s"><tspan fill="#7dd3fc" font-weight="700">home    </tspan><tspan fill="#e2e8f0">Dehradun, IN  (himalayan foothills)</tspan></text>
+<text class="in" x="272" y="173" xml:space="preserve" style="animation-delay:1.66s"><tspan fill="#7dd3fc" font-weight="700">home    </tspan><tspan fill="#e2e8f0">Waterloo, ON  /  Dehradun, IN</tspan></text>
 <text class="in" x="272" y="194" xml:space="preserve" style="animation-delay:1.75s"><tspan fill="#7dd3fc" font-weight="700">role    </tspan><tspan fill="#e2e8f0">ai/ml  -  backend  -  hardware</tspan></text>
 <text class="in" x="272" y="215" xml:space="preserve" style="animation-delay:1.84s"><tspan fill="#7dd3fc" font-weight="700">os      </tspan><tspan fill="#e2e8f0">linux  /  hyprland</tspan></text>
 <text class="in" x="272" y="236" xml:space="preserve" style="animation-delay:1.93s"><tspan fill="#7dd3fc" font-weight="700">shell   </tspan><tspan fill="#e2e8f0">fish + starship</tspan></text>
