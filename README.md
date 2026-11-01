@@ -50,8 +50,6 @@
 | build | what it does |
 |---|---|
 | **MedMesh node** | Heltec WiFi LoRa 32 V3 boards running Meshtastic, plus an ESP32 SOS button you have to hold for 3 seconds (let go early and it cancels) |
-| **EMF Detector** | An Arduino device that detects electromagnetic fields, with custom ML on top to make sense of the readings |
-| **Driver Safety Device** | Hardware sensors and an ML model that watch a driver's alertness and step in before it becomes a crash |
 | **Caristification** | An AI chatbot that suggests cars to fit your lifestyle and previews modifications before you make them |
 | **Video Meeting App** | An accessible video-call platform designed for people of determination |
 
