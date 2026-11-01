@@ -146,7 +146,7 @@ def header():
     o.append('</g>')
 
     # right panel: enso + name
-    cx, cyy, r = 832, 196, 96
+    cx, cyy, r = 832, 226, 96
     o.append(f'<circle cx="{cx}" cy="{cyy}" r="160" fill="url(#glow)"/>')
     import math
     a0, a1 = math.radians(-115), math.radians(215)
@@ -157,9 +157,7 @@ def header():
     o.append(f'<path class="enso" pathLength="100" d="M{x0:.1f} {y0:.1f} A{r+6} {r+6} 0 1 1 {x1:.1f} {y1:.1f}" fill="none" stroke="{TEXT}" stroke-width="3" stroke-linecap="round" opacity=".35" style="animation-delay:.45s"/>')
     o.append(f'<text class="s in" x="{cx}" y="{cyy+6}" text-anchor="middle" font-size="34" font-weight="800" fill="{TEXT}" letter-spacing="1" style="animation-delay:1.6s">Shy<tspan fill="{VIOLET}">Zen</tspan></text>')
     o.append(f'<text class="m in" x="{cx}" y="{cyy+30}" text-anchor="middle" font-size="12" fill="{MUTED}" letter-spacing="6" style="animation-delay:1.8s">SHIVEN</text>')
-    o.append(f'<text class="s in" x="{cx}" y="{cyy+150}" text-anchor="middle" font-size="22" font-weight="700" fill="{TEXT}" style="animation-delay:2.1s">quiet code.</text>')
-    o.append(f'<text class="s in" x="{cx}" y="{cyy+178}" text-anchor="middle" font-size="22" font-weight="700" fill="{PINK}" style="animation-delay:2.4s">loud impact.</text>')
-    o.append(f'<text class="m in" x="{cx}" y="{cyy+222}" text-anchor="middle" font-size="11" fill="{MUTED}" style="animation-delay:2.7s">ML  /  BACKENDS  /  RADIOS  /  RICE</text>')
+    o.append(f'<text class="m in" x="{cx}" y="{cyy+150}" text-anchor="middle" font-size="11" fill="{MUTED}" style="animation-delay:2.1s">ML  /  BACKENDS  /  RADIOS  /  RICE</text>')
     o.append('</svg>')
     return "\n".join(o)
 
